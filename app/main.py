@@ -10,7 +10,7 @@ app = FastAPI(
 )
 
 # Load full pipeline (feature + preprocess + model)
-model = joblib.load("/Users/prachyasumandas/Documents/titanic/artifacts/model.pkl")
+model = joblib.load("artifacts/model.pkl")
 
 @app.get("/")
 def home():
