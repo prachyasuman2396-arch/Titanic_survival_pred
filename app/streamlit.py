@@ -8,7 +8,7 @@ st.set_page_config(
     layout="centered"
 )
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://titanic-survival-pred.onrender.com/predict"
 
 st.sidebar.title("Titanic App")
 option = st.sidebar.radio(
